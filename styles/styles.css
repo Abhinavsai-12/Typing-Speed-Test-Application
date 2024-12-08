@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #fffefed5;
+}
+
+/* Text Passage */
+#text-passage {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    height: 100px;
+    overflow-y: auto;
+}
+
+/* Typing Area */
+#typing-area {
+    resize: none;
+    font-size: 1rem;
+}
+
+/* Highlighting Errors */
+.error {
+    color: red;
+    text-decoration: underline;
+}
+
+/* CSS for Footer Alignment */
+.copyr {
+    position: absolute;
+    bottom: 5px; /* Distance from the bottom of the viewport */
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Ensure the body stretches to the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Make container take up remaining space */
+}
+
+.text-success {
+    color: green
+}
+
+.text-danger {
+    color: red;
+}
+
+
+
+
+/* Media Queries for Tablets (768px and below) */
+@media (max-width: 768px) {
+    #text-passage {
+        font-size: 16px; /* Reduce font size for readability */
+        padding: 2rem 1rem; /* Adjust padding */
+    }
+
+    textarea#typing-area {
+        font-size: 14px; /* Smaller font size for input area */
+        height: auto; /* Adjust height for better fit */
+    }
+
+    .badge {
+        font-size: 14px; /* Adjust badge font size */
+        padding: 0.5rem 1rem; /* Adjust padding for badges */
+    }
+
+    .text-center button {
+        width: 100%; /* Buttons take full width */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Reduce the heading size */
+    }
+}
+
+
+
+/* Media Queries for Mobile (480px and below) */
+@media (max-width: 480px) {
+    #text-passage {
+        font-size: 14px; /* Further reduce font size */
+        padding: 1.5rem 0.8rem; /* Smaller padding */
+    }
+
+    textarea#typing-area {
+        font-size: 12px; /* Smaller font size for input */
+        height: auto; /* Adjust height */
+    }
+
+    .badge {
+        font-size: 12px; /* Smaller badge size */
+        padding: 0.4rem 0.8rem; /* Smaller padding */
+    }
+
+    .text-center button {
+        font-size: 14px; /* Adjust button text size */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller heading size */
+    }
+}

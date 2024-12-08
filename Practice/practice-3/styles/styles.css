@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #fffefed5;
+}
+
+/* Text Passage */
+#text-passage {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    height: 100px;
+    overflow-y: auto;
+}
+
+/* Typing Area */
+#typing-area {
+    resize: none;
+    font-size: 1rem;
+}
+
+/* Highlighting Errors */
+.error {
+    color: red;
+    text-decoration: underline;
+}
+
+/* CSS for Footer Alignment */
+.copyr {
+    position: absolute;
+    bottom: 5px; /* Distance from the bottom of the viewport */
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Ensure the body stretches to the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Make container take up remaining space */
+}
+
+.text-success {
+    color: green
+}
+
+.text-danger {
+    color: red;
+}
