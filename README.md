@@ -5,15 +5,25 @@
 **Overview:** The Typing Speed Test App is a web application that allows users to measure their typing speed and accuracy. Users type a given passage within a set time limit, and the application calculates their typing speed in words per minute (WPM) and accuracy percentage. Built using HTML, CSS, Bootstrap, and JavaScript, the app is designed to be responsive and user-friendly on all devices.
 
 **Features:**
+
 **Text Passage:** Provides a passage of text for the user to type.
+
 **Timer:** Counts down from a set time limit (e.g., 1 minute).
+
 **Typing Area:** Allows users to type the provided passage.
+
 **Typing Speed Calculation:** Calculates and displays typing speed in WPM.
+
 **Accuracy Calculation:** Calculates and displays typing accuracy as a percentage.
+
 **Error Highlighting:** Highlights errors in the user's typing in real-time.
+
 **Result Display:** Shows the results of the typing test (WPM, accuracy, and errors).
+
 **Reset Test:** Allows users to reset the test and try again.
+
 **Responsive Design:** Ensures the application is fully functional and visually appealing across all devices, including mobile phones, tablets, and laptops.
+
 
 **Technologies Used:**
 **HTML:** For creating the basic structure of the web page.
