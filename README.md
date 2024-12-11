@@ -9,21 +9,13 @@
 **Features:**
 
 **Text Passage:** Provides a passage of text for the user to type.
-
 **Timer:** Counts down from a set time limit (e.g., 1 minute).
-
-**Typing Area:** Allows users to type the provided passage.
-
+**Typing Area:** Allows users to type the provided passage
 **Typing Speed Calculation:** Calculates and displays typing speed in WPM.
-
 **Accuracy Calculation:** Calculates and displays typing accuracy as a percentage.
-
 **Error Highlighting:** Highlights errors in the user's typing in real-time.
-
 **Result Display:** Shows the results of the typing test (WPM, accuracy, and errors).
-
 **Reset Test:** Allows users to reset the test and try again.
-
 **Responsive Design:** Ensures the application is fully functional and visually appealing across all devices, including mobile phones, tablets, and laptops.
 
 
@@ -31,13 +23,9 @@
 **Technologies Used:**
 
 **HTML:** For creating the basic structure of the web page.
-
 **CSS:** For styling the user interface and enhancing the visual appeal.
-
 **Bootstrap:** For responsive design and pre-built components.
-
 **JavaScript:** For handling user input, timing, and calculating results.
-
 
 
 
