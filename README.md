@@ -123,7 +123,3 @@ Bootstrap ensures the layout adapts to various screen sizes, maintaining usabili
 
 
 
-
-
-
-
