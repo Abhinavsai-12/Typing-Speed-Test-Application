@@ -1,4 +1,5 @@
-# Typing-Speed-Test-Application
+# Typing Speed Test Application
+
 
 **Typing Speed Test App**
 
