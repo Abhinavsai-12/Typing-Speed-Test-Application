@@ -11,6 +11,7 @@
 
 **Text Passage:** Provides a passage of text for the user to type.
 
+
 **Timer:** Counts down from a set time limit (e.g., 1 minute).
 
 **Typing Area:** Allows users to type the provided passage
