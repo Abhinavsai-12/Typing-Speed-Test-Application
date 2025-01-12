@@ -38,7 +38,10 @@ The Typing Speed Test App is a web application that allows users to measure thei
 
 
 
+
 **Technologies Used:**
+
+
 
 **HTML:** For creating the basic structure of the web page.
 
