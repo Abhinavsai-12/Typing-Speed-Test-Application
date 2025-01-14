@@ -3,8 +3,6 @@
 
 
 
-
-
 **Typing Speed Test App**
 
 
