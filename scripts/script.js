@@ -1,5 +1,8 @@
 // JavaScript for Typing Speed Test App
 
+
+
+
 // Variables
 let timer = 90; // Timer set to 90 seconds
 let interval = null;
