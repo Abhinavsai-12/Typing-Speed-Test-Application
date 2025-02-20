@@ -6,7 +6,6 @@ body {
 
 
 
-
 /* Text Passage */
 #text-passage {
     font-size: 1.2rem;
@@ -15,11 +14,13 @@ body {
     overflow-y: auto;
 }
 
+
 /* Typing Area */
 #typing-area {
     resize: none;
     font-size: 1rem;
 }
+
 
 /* Highlighting Errors */
 .error {
