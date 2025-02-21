@@ -8,6 +8,9 @@ let totalChars = 0;
 let correctChars = 0;
 let incorrectChars = 0;
 
+
+
+
 // Elements
 const textPassageElement = document.getElementById("text-passage");
 const typingArea = document.getElementById("typing-area");
