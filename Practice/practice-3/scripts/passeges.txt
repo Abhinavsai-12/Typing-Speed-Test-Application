@@ -4,6 +4,8 @@ const passages = [
     "The quick brown fox jumps over the lazy dog.",
     "HTML, CSS, and JavaScript are essential tools. Learning to code is a valuable skill.",
     "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.",
+
+
     "Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.",
     "Java Script is a High level Programing Language that is primarly used to enhance the interactivity and dynamic behaviour of web sites. It is knowns as Scripting Languages for websites.",
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione impedit aliquam assumenda omnis quas blanditiis commodi neque, nemo ipsa quae cumque, corporis autem.",
