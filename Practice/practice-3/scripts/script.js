@@ -10,7 +10,6 @@ let incorrectChars = 0;
 
 
 
-
 // Elements
 const textPassageElement = document.getElementById("text-passage");
 const typingArea = document.getElementById("typing-area");
@@ -20,6 +19,15 @@ const accuracyElement = document.getElementById("accuracy");
 const startButton = document.getElementById("start-btn");
 const resetButton = document.getElementById("reset-btn");
 const submitButton = document.getElementById("submit-btn");
+
+
+
+
+
+
+
+
+
 
 // Sample Texts
 const passages = [
@@ -35,6 +43,15 @@ const passages = [
     "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation).",
     "Modern digital electronic computers can perform generic sets of operations known as programs."  
 ];
+
+
+
+
+
+
+
+
+
 
 // Functions
 
