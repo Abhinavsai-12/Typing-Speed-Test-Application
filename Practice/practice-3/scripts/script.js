@@ -10,6 +10,9 @@ let incorrectChars = 0;
 
 
 
+
+
+
 // Elements
 const textPassageElement = document.getElementById("text-passage");
 const typingArea = document.getElementById("typing-area");
@@ -19,6 +22,7 @@ const accuracyElement = document.getElementById("accuracy");
 const startButton = document.getElementById("start-btn");
 const resetButton = document.getElementById("reset-btn");
 const submitButton = document.getElementById("submit-btn");
+
 
 
 
@@ -53,6 +57,7 @@ const passages = [
 
 
 
+
 // Functions
 
 // Generate a random text passage
@@ -60,6 +65,7 @@ function generateText() {
     textPassage = passages[Math.floor(Math.random() * passages.length)];
     textPassageElement.textContent = textPassage;
 }
+
 
 // Start the typing test
 function startTest() {
@@ -79,6 +85,7 @@ function startTest() {
         }
     }, 1000);
 }
+
 
 // End the typing test
 function endTest() {
