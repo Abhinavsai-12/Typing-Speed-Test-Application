@@ -11,9 +11,6 @@ const errorsDisplay = document.getElementById('errors');
 
 
 
-
-
-
 let timer;
 let timeLeft = 60;
 let isStarted = false;
@@ -23,12 +20,11 @@ let errors = 0;
 
 
 
-
-
-
 startBtn.addEventListener('click', startTest);
 resetBtn.addEventListener('click', resetTest);
 typingArea.addEventListener('input', handleTyping);
+
+
 
 function startTest() {
     if (isStarted) return;
@@ -39,6 +35,8 @@ function startTest() {
     timer = setInterval(updateTimer, 1000);
 }
 
+
+
 function updateTimer() {
     if (timeLeft > 0) {
         timeLeft--;
@@ -47,6 +45,8 @@ function updateTimer() {
         endTest();
     }
 }
+
+
 
 function handleTyping() {
     const inputText = typingArea.value;
