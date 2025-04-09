@@ -37,6 +37,8 @@ function startTest() {
 
 
 
+
+
 function updateTimer() {
     if (timeLeft > 0) {
         timeLeft--;
@@ -45,6 +47,8 @@ function updateTimer() {
         endTest();
     }
 }
+
+
 
 
 
