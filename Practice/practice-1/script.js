@@ -18,9 +18,12 @@ let errors = 0;
 
 
 
+
 startBtn.addEventListener('click', startTest);
 resetBtn.addEventListener('click', resetTest);
 typingArea.addEventListener('input', handleTyping);
+
+
 
 
 
@@ -34,6 +37,7 @@ function startTest() {
     startBtn.disabled = true;
     timer = setInterval(updateTimer, 1000);
 }
+
 
 
 
