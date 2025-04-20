@@ -25,6 +25,8 @@ typingArea.addEventListener('input', handleTyping);
 
 
 
+
+
 function startTest() {
     if (isStarted) return;
     isStarted = true;
@@ -33,6 +35,8 @@ function startTest() {
     startBtn.disabled = true;
     timer = setInterval(updateTimer, 1000);
 }
+
+
 
 
 
