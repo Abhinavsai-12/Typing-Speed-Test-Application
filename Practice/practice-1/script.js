@@ -10,11 +10,16 @@ const errorsDisplay = document.getElementById('errors');
 
 
 
+
+
+
 let timer;
 let timeLeft = 60;
 let isStarted = false;
 let typedCharacters = 0;
 let errors = 0;
+
+
 
 
 
