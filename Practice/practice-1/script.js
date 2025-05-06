@@ -19,9 +19,16 @@ let errors = 0;
 
 
 
+
+
+
 startBtn.addEventListener('click', startTest);
 resetBtn.addEventListener('click', resetTest);
 typingArea.addEventListener('input', handleTyping);
+
+
+
+
 
 
 
@@ -33,6 +40,9 @@ function startTest() {
     startBtn.disabled = true;
     timer = setInterval(updateTimer, 1000);
 }
+
+
+
 
 
 
@@ -48,12 +58,16 @@ function updateTimer() {
 
 
 
+
+
 function handleTyping() {
     const inputText = typingArea.value;
     typedCharacters = inputText.length;
     errors = calculateErrors(inputText);
     updateRealTimeStats();
 }
+
+
 
 function calculateErrors(inputText) {
     let errorCount = 0;
